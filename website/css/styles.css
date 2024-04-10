@@ -1,0 +1,52 @@
+
+
+
+
+body {
+    background-color: aliceblue;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+a {
+    color: aqua;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+img {
+    border: 2px solid blueviolet;
+    padding: 3px;
+    margin: 5px;
+    display: block;
+    margin: auto;
+}
+
+.rizz {
+    font-family: 'Times New Roman', Times, serif;
+    color: limegreen;
+    border: dashed yellow;
+    font-size: large;
+    font-style: oblique;
+}
+
+li {
+    text-decoration: overline;
+}
+
+/* Add border to the Resume heading */
+h1 {
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Add border to the list items */
+ol li, ul li {
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    margin-bottom: 5px; /* Adjust margin as needed */
+}
